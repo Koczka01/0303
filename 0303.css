@@ -46,6 +46,7 @@ html, body
 #supervisor
 {
     border-top: solid turquoise;
+    
 }
 #team_builder
 {
@@ -58,6 +59,10 @@ html, body
 #calculator
 {
     border-top: solid blue;
+}
+#kep
+{
+    align-items: flex-end;
 }
 @media screen and (max-width: 480px)
 {
