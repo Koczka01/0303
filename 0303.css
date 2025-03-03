@@ -1,0 +1,84 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+#kartyak
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+#supervisor, #calculator
+{
+    align-self: center;
+}
+#szovegek
+{
+    text-align: center;
+}
+#szovegek h1
+{
+    font-weight: normal;
+    font-size: 2vw;
+}
+#szovegek h2
+{
+    font-weight: bold;
+    font-size: 2vw;
+}
+#egesz
+{
+    margin: 5vw;
+    padding: 5vw;
+    background-color: rgb(243, 243, 243);
+}
+#supervisor, #team_builder, #karma, #calculator
+{
+    margin: 1vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 0.5vw ;
+    box-shadow: 0 10px 10px rgb(184, 184, 184);
+
+}
+#supervisor
+{
+    border-top: solid turquoise;
+}
+#team_builder
+{
+    border-top: solid red;
+}
+#karma
+{
+    border-top: solid orange;
+}
+#calculator
+{
+    border-top: solid blue;
+}
+@media screen and (max-width: 480px)
+{
+    #egesz
+    {
+        margin: 0;
+    }
+    #kartyak
+    {
+        flex-direction: column;
+    }
+    #supervisor, #team_builder, #karma, #calculator
+    {
+        margin-top: 5vh;
+    }
+    #szovegek h1
+    {
+        font-size: 6vw;
+    }
+    #szovegek h2
+    {
+        font-size: 6vw;
+    }
+}
